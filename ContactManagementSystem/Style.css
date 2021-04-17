@@ -1,0 +1,217 @@
+/* style inputs */
+input[type=text],input[type=password],input[type=email],
+input[type=date], select, textarea
+{
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+}
+
+/* Style the label to display above the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight:bold;
+}
+.contact_group{
+    width:98%;
+}
+
+/* Style the submit button */
+input[type=submit] {
+
+    background-color: #B69B02;
+    color: white;
+    width: 98%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 20px;
+}
+/* Style the cancel button */
+input[type=button] {
+    background-color: #cc0000;
+    color: white;
+    width: 98%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 20px;
+}
+/* container styling */
+.container {
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    background: linear-gradient(to right, #6d6027, #d3cbb8);
+    padding: 20px;
+    margin: auto;
+    width: 40%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* remove floats after the table columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+
+    }
+}
+/*style add button*/
+.add-btn{
+    background-color: #B69B02;
+    color: white;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+/*style logout*/
+.logout-btn{
+    background-color: #cc0000;
+    color: white;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+/* Table format*/
+#contactinfo{
+
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+#contactinfo td, #contactinfo th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#contactinfo tr:nth-child(even)
+{
+    background: linear-gradient(to right, #6d6027, #d3cbb8);
+
+}
+#contactinfo tr:hover {background-color: #ddd;}
+
+#contactinfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #B69B02;
+    color: white;
+}
+
+
+/*Style the edit button*/
+.edit-btn{
+    text-decoration: none;
+    background-color: #B69B02;
+    color: white;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;   
+}
+
+
+/* Style the delete button */
+.delete_btn {
+    text-decoration: none;
+    background-color: #B69B02;
+    color: white;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+}
+
+/*style business contacts*/
+.business-btn{
+    background-color: #b69b02;
+    color: white;
+    border-radius: 4px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+/*style private contacts*/
+.private-btn{
+    background-color: #b69b02;
+    color: white;
+    border-radius: 4px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+/*style delete all*/
+.del_all-btn{
+    background-color: #cc0000;
+    color: white;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+/*style  all contacts*/
+.All-btn{
+    background-color: #b69b02;
+    color: white;
+    border-radius: 4px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+body{
+    background: linear-gradient(to right, #6d6027, #d3cbb8);
+}
+

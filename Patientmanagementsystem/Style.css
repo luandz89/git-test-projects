@@ -1,0 +1,271 @@
+/* style inputs */
+input[type=text],input[type=password],
+input[type=date], select, textarea
+{
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+}
+
+/* Style the label to display above the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight:bold;
+}
+.gender{
+    width:97%;
+}
+
+/* Style the submit button */
+input[type=submit] {
+
+    background-color: #b69b02;
+    color: white;
+    width: 98%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 20px;
+}
+/* Style the cancel button */
+input[type=button] {
+    background-color: #cc0000;
+    color: white;
+    width: 98%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 20px;
+}
+/* Style the container */
+.container {
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    background: linear-gradient(to right, #6d6027, #d3cbb8);
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+
+    }
+}
+/* Table format*/
+#patientinfo{
+
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+
+
+}
+#patientinfo td, #patientinfo th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#patientinfo tr:nth-child(even)
+{
+    background-color:#f2f2f2 ;
+
+}
+#patientinfo tr:hover {background-color: #ddd;}
+
+#patientinfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #B69B02;
+    color: white;
+}
+
+/*style Add new Patient*/
+a.one {
+    background-color: #b69b02;
+    color: white;
+    border-radius: 4px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+/*style logout*/
+.logout{
+    background-color: #b69b02;
+    color: white;
+    border-radius: 8px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+.deleteall{
+    background-color: #b69b02;
+    color: white;
+    border-radius: 8px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+
+/* Style update button */
+
+.update_btn {
+    text-decoration: none;
+    background-color: #B69B02;
+    color: white;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+}
+
+
+/* Style the delete button */
+.delete_btn {
+    text-decoration: none;
+    background-color: #B69B02;
+    color: white;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    border: 2px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+
+}
+
+
+body{
+    background: linear-gradient(to right, #6d6027, #d3cbb8);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
