@@ -1,0 +1,14 @@
+Name;Surname;Percentage
+
+lwandile;ngesi;10
+thlolo;kgawane;20
+test;test;12
+test;test;23
+test;test;10
+tester;tester;12
+test;test;23.0
+test;test;21.0
+test;test;0
+test;test;100
+test;test;77
+final;final;87
